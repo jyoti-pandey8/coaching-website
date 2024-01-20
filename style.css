@@ -1,0 +1,121 @@
+*{
+    margin:0%;
+    padding:0%
+
+}
+body{
+ background: none;   
+}
+.course1 {
+    background-image:url(course-1.jpg);
+}
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding:3px;
+
+}
+.image .profile-img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border:3px solid #fff;
+}
+/* <div class="image">
+<img src="1logo.jpg" alt="" class="profile-img"/>
+
+
+</div> */
+.cou1{
+    background-color:rgb(33, 81, 226);
+    /* background-image: url(course-1.jpg); */
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.container img{
+    height:300px;
+    width:300px;
+
+}
+.h1 {
+    background-color:rgb(33, 81, 226);
+}
+.counter-main{
+    background-image: url(counter.png);
+}
+.footerlogo{
+    height:300px;
+    width:99px;
+    /* font:bold; */
+}
+.footer{
+    background-image: url(course-1.jpg);
+}
+/* body{
+    background-color: aqua;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+/* .popupp{
+    background-color: rgb(210, 197, 5);
+    width:450px;
+    padding: 30px 40px;
+    position:static;
+    translate:translate(-50%,-50%);
+    left:50%;
+    top:50%;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    display: none;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; 
+}*/
+
+/* .popupp button{
+    display: block;
+    margin:0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: rgb(240, 13, 191);
+    border: none;
+    cursor:pointer;
+} */
+/* .popupp p{
+    font-size: 14px;
+    text-align: justify;
+    margin:20px 0;
+}
+.popuppsubmit{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin:auto;
+    text-align: center;
+    background-color:blue;
+    color:#1586e9;
+    text-decoration: none;
+    padding: 5px 0;
+} */ 
+.box{
+    height:70px;
+    width:70px;
+}
+
+.box2{
+    background-color:rgb(22, 153, 183);
+    position:fixed;
+    bottom:0;
+    right:10px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
